@@ -15,23 +15,23 @@
             <h1 class="name-title">Kyle Torres</h1>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#HOME" id="home">HOME</a></li>
+                    <li><a href="#home" id="home">HOME</a></li>
                     <br>
-                    <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
                     <br>
-                    <li><a href="#CONTACT">CONTACT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
 
         <div class="intro">
             <img src="images/responsive-layout-profile.png" alt="Profile Picture" class="profile-image">
-            <p>Hi! I'm a front-end developer who loves responsive design and css. I am currently learning web development at Treehouse and I am excited to put all my skills to use!</p>
+            <p class="intro-p">Hi! I'm a front-end developer who loves responsive design and css. I am currently learning web development at Treehouse and I am excited to put all my skills to use!</p>
         </div>
         
         <main>
             <div class="main-info">
-                <h3 id="PORTFOLIO" class="title">PORTFOLIO</h3>
+                <h2 id="portfolio" class="title">PORTFOLIO</h2>
                 <div class="marketing" class="projects" col>
                     <img src="images/portfolio-1.png" alt ="Marketing Page Image" class="marketing-photo">
                     <h3 class="title">Marketing Page</h3>
@@ -70,18 +70,24 @@
              </div>
 
             <div class="contact-info">
-                <h3 id="CONTACT" class="title">CONTACT</h3>
-                <p>If you're intereseted in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-                <p>Phone <a href="tel:+1-757-969-3063"> +1(757) 969-3063</a></p>
-                <p>Email <a href= "mailto: torreskd@outlook.com">torreskd@outlook.com</a></p>
+                <h3 id="contact">CONTACT</h3>
+                <p class="contact-p">If you're intereseted in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+                <p>Phone <a href="tel:+1-757-969-3063" id="phone"> +1(757) 969-3063</a></p>
+                <p>Email <a href= "mailto: torreskd@outlook.com" id="email">torreskd@outlook.com</a></p>
             </div>
+            <hr>
         </main>
 
         <footer>
-            <hr>
+
             <nav class="nav-footer">
                 <h4 class="name-footer">Kyle Torres</h4>
-                <a href="#BACKTOTOP" id="backtotop" class="back-footer">BACK TO TOP</a>
+                <ul>
+                    <li><a href="#home"class="hidden">HOME</a></li>
+                    <li><a href="#portfolio"class="hidden">PORTFOLIO</a></li>
+                    <li><a href="#contact"class="hidden">CONTACT</a></li>
+                    <li><a href="#top" id="backtotop" class="back-footer">BACK TO TOP</a></li>
+                </ul>
             </nav>
         </footer>
     </body>
